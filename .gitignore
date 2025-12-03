@@ -1,0 +1,27 @@
+# 不上传的目录
+libs/
+models/
+
+# Python 缓存和虚拟环境
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+.env/
+venv/
+.venv/
+
+# VSCode 配置
+.vscode/
+
+# 可能生成的日志与临时文件
+*.log
+*.tmp
+
+# macOS / Linux 系统文件
+.DS_Store
+Thumbs.db
+
+# 如果你使用 pip freeze 或自动生成的文件
+pip-wheel-metadata/
